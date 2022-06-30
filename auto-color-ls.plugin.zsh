@@ -1,7 +1,7 @@
-auto-color-ls() {
+auto-lsd() {
 	emulate -L zsh
 	echo
-	colorls -A --group-directories-first
+	lsd -A --group-directories-first
 }
 
-chpwd_functions=(auto-color-ls $chpwd_functions)
+chpwd_functions=(auto-lsd $chpwd_functions)
